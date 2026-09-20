@@ -1,0 +1,10 @@
+{
+  "name": "Travel Mood",
+  "description": "Smart travel companion and live guide featuring real-time transit telemetry, regret-free anti-guides, vibe discovery, and offline toolkits.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

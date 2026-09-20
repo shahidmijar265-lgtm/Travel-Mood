@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Remove Leaflet attribution watermark, copyright, and trademark badge */
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.leaflet-route-dash {
+  animation: dash 1.5s linear infinite;
+}
+
+/* Custom dark popup styling for Leaflet */
+.leaflet-popup-content-wrapper {
+  background: #1c1917 !important;
+  color: #f5f5f4 !important;
+  border: 1px solid #44403c !important;
+  border-radius: 14px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5) !important;
+}
+.leaflet-popup-tip {
+  background: #1c1917 !important;
+  border: 1px solid #44403c !important;
+}
